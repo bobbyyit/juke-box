@@ -21,7 +21,7 @@ public class SettingsLoader {
         JukeboxSettings load = null;
         try {
             load = externalSourceLoader.getJukeboxSettings("http://my-json-server.typicode.com/touchtunes/tech-assignment/settings");
-            load = loadFromJson();
+//            load = loadFromJson();
         } catch (Exception e) {
 
         }

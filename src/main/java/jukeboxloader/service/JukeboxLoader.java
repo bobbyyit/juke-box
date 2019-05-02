@@ -25,8 +25,8 @@ public class JukeboxLoader {
         List<Jukebox> filteredJukeboxes = new ArrayList<>();
         List<Jukebox> jukeboxes = null;
         try {
-//            jukeboxes = externalSourceLoader.getJukeboxes("http://my-json-server.typicode.com/touchtunes/tech-assignment/jukes");
-            jukeboxes = loadFromJson();
+            jukeboxes = externalSourceLoader.getJukeboxes("http://my-json-server.typicode.com/touchtunes/tech-assignment/jukes");
+//            jukeboxes = loadFromJson();
         } catch (Exception e) {
             System.out.println(e);
         }
