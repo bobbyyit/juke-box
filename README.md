@@ -5,7 +5,7 @@ Given a jukebox setting id, returns elegible jukeboxes
 How to start application
 Run Jukebox.main() and navigate to http://localhost:8080/status to verify if the application is up and running
 
-## Enpoints
+## Endpoints
 
 ```sh
 GET: jukeboxes
