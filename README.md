@@ -33,5 +33,5 @@ offest: specifies at what index start the page
 
 ### Sample Response
 ```
-{"errorCode":1,"message":"Could not find setting"}
+{"code":1,"message":"Could not find setting"}
 ```

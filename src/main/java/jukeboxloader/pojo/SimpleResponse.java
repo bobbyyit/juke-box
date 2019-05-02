@@ -1,11 +1,11 @@
 package jukeboxloader.pojo;
 
 public class SimpleResponse {
-    private int errorCode;
+    private int code;
     private String message;
 
-    public SimpleResponse(int errorCode, String message) {
-        this.errorCode = errorCode;
+    public SimpleResponse(int code, String message) {
+        this.code = code;
         this.message = message;
     }
 }
