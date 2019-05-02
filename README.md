@@ -13,7 +13,7 @@ Parameters
 setting-id (Mandatory): the setting id
 model: filter model 
 limit: specifies the page size
-offest: specifies at what index start the page
+offet: specifies at what index start the page
 ```
 
 ### Sample Response:
